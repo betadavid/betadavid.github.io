@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sedgwick+Ave+Display&display=swap');
+
+/*
+font-family: 'Righteous', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+*/
+
+* { /* all html tags */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* includes border and paddings for box size*/
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    background-color: #CACAAA; /* Color Sage*/
+}
+
+main {
+    width: 40%;
+    margin: auto;
+}
+
+.profilepic {
+    width: 80%; /* size to be 80% of container */
+    margin: 0 10%; /* remaining 10% (at each side) of container size as margin */
+    border-radius: 5%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+section h2, header p {
+    color: #792E18; /* color sienna */
+}
+
+section h2 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+section:last-child {
+    margin-bottom: 50px;
+}
+
+.contact li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+p, li, h3 {
+    color: #200E0A;
+}
+
+
+p {
+    padding: 15px;
+}
+
+ul {
+    list-style: inside;
+}
+
+ol {
+    margin-left: 50px;
+}
+
+li img {
+    width: 48px;
+    margin: auto;
+}
+
+
+hr {
+    margin: 10px auto;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    background-color: #200E0A;
+    text-align: center;
+}
+
+footer, header{
+    background-color: #1B1513; /* Licorice */
+}
+
+h1, footer p {
+    color: #C33505; /* color rust */
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #792E18;
+}
+
+a:hover {
+    color: #C33505;
+}
+
